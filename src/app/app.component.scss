@@ -1,31 +1,41 @@
-section {
-  display: table;
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+  height: 100%;
 }
 
-.example-label {
-  display: table-cell;
-  font-size: 14px;
-  margin-left: 8px;
-  min-width: 120px;
+mat-sidenav {
+  width: 250px;
 }
 
-.example-button-row {
-  display: table-cell;
-  max-width: 600px;
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: lightgray;
+  }
 }
 
-.example-button-row .mat-mdc-button-base {
-  margin: 8px 8px 8px 0;
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover,
+  &:active {
+    color: lightgray;
+  }
 }
 
-.example-flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.example-button-container {
-  display: flex;
-  justify-content: center;
-  width: 120px;
+.main {
+  margin: 50px;
 }
